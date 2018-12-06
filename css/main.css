@@ -5,7 +5,8 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font: normal 100%/1.5 "Avenir Next Condensed";
+  font: normal 100%/1.5;
+  font-family: 'Merriweather', serif;
   box-sizing: border-box;
 }
 
