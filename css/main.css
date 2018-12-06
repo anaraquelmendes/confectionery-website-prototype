@@ -1,0 +1,149 @@
+html {
+  font: normal 100%/1.5 "Avenir Next Condensed";
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.logo {
+  padding: 2em;
+  text-align: center;
+}
+
+.logo-image {
+  height: 5em;
+}
+
+h1 {
+  color: brown;
+  display: inline;
+  font-size: 1.25em;
+}
+
+h2 {
+  color: brown;
+}
+
+.navigation ul,
+.socialmedia,
+.company nav ul,
+.products nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  text-align: center;
+}
+
+.navigation ul li {
+  text-align: center;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  background-color: lightgrey;
+  padding: .5em;
+  display: block;
+
+}
+
+.navigation ul li a:hover {
+  background-color: #333;
+  color:lightgrey;
+}
+
+.cards {
+  padding: 1em;
+}
+
+.card-cards {
+  padding: .5em;
+  background-color: yellow;
+  margin: .7em 0;
+  display: block;
+  float: none;
+}
+
+.card-cards a {
+  text-decoration: none;
+}
+.card-cards img {
+  width: 100%;
+}
+
+.card-position {
+  position: relative;
+
+}
+
+.card-position span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #fff;
+  padding: .7em;
+  border-radius: 4px;
+}
+
+.candy-house,
+.sweet-santa,
+.snowflake {
+  display: none;
+}
+
+.mission {
+  display: block;
+  padding: 0 4em;
+
+}
+
+
+ {
+  padding: 0;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 38em) {
+  .navigation ul li {
+    text-align: left;
+    display: inline-block;
+  }
+
+  .navigation ul li a {
+    text-decoration: none;
+
+  }
+
+  .navigation ul {
+    text-align: center;
+
+  }
+
+  .cards {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 42em;
+}
+
+  .card-cards {
+    float: left;
+    width: 31%;
+    margin: .5em;
+
+  }
+
+  .candy-house,
+  .sweet-santa,
+  .snowflake {
+    display: inline-block;
+  }
+
+}
