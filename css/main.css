@@ -8,6 +8,10 @@ html {
   font: normal 100%/1.5;
   font-family: 'Merriweather', serif;
   box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -103,6 +107,7 @@ h2 {
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
 .mission {
