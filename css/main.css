@@ -152,4 +152,8 @@ h2 {
     display: inline-block;
   }
 
+.social {
+  display: flex;
+}
+
 }
