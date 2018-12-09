@@ -6,7 +6,7 @@
 
 html {
   font: normal 100%/1.5;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -19,8 +19,8 @@ html {
 }
 
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -48,7 +48,7 @@ h2 {
 .products nav ul {
   list-style-type: none;
   padding: 0;
-  margin:0;
+  margin: 0;
   text-align: center;
 }
 
@@ -62,12 +62,11 @@ h2 {
   background-color: lightgrey;
   padding: .5em;
   display: block;
-
 }
 
 .navigation ul li a:hover {
   background-color: #333;
-  color:lightgrey;
+  color: lightgrey;
 }
 
 .card-cards {
@@ -81,13 +80,13 @@ h2 {
 .card-cards a {
   text-decoration: none;
 }
+
 .card-cards img {
   width: 100%;
 }
 
 .card-position {
   position: relative;
-
 }
 
 .card-position span {
@@ -122,6 +121,13 @@ h2 {
   padding: .5em;
 }
 
+.products,
+.company,
+.social {
+  width: 32%;
+  display: inline-block;
+}
+
 header li {
   padding: 0;
   list-style-type: none;
@@ -150,12 +156,10 @@ header li {
 
   .navigation ul li a {
     text-decoration: none;
-
   }
 
   .navigation ul {
     text-align: center;
-
   }
 
   .cards {
@@ -163,13 +167,12 @@ header li {
     margin-left: auto;
     margin-right: auto;
     height: 42em;
-}
+  }
 
   .card-cards {
     float: left;
     width: 31%;
     margin: .5em;
-
   }
 
   .candy-house,
@@ -178,8 +181,14 @@ header li {
     display: inline-block;
   }
 
-  .socialmedia {
+  .socialmedia img {
     display: flex;
+    width: 36px;
+    display: inline-block;
+  }
+
+  li {
+    display: inline-block;
   }
 }
 
@@ -189,6 +198,7 @@ header li {
     font-size: 120%;
     line-height: 1.5;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -196,4 +206,5 @@ header li {
   html {
     font-size: 130%;
   }
+
 }
