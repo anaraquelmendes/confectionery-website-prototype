@@ -51,6 +51,7 @@ h2 {
   margin: 0;
   text-align: center;
 }
+
 .socialmedia {
   display: flex;
 }
@@ -124,7 +125,6 @@ h2 {
   margin-right: auto;
   padding-left: .5em;
   padding-right: .5em;
-
 }
 
 .cards {
